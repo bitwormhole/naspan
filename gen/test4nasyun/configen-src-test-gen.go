@@ -1,10 +1,10 @@
-package test4naspan
+package test4nasyun
 import (
-    p2a9210c16 "github.com/bitwormhole/naspan/src/test/golang/unit"
+    p2a9210c16 "github.com/bitwormhole/nasyun/src/test/golang/unit"
      "github.com/starter-go/application"
 )
 
-// type p2a9210c16.DemoUnit in package:github.com/bitwormhole/naspan/src/test/golang/unit
+// type p2a9210c16.DemoUnit in package:github.com/bitwormhole/nasyun/src/test/golang/unit
 //
 // id:com-2a9210c169532405-unit-DemoUnit
 // class:class-0dc072ed44b3563882bff4e657a52e62-Units

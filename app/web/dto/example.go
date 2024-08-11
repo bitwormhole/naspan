@@ -1,6 +1,6 @@
 package dto
 
-import "github.com/bitwormhole/naspan/app/data/dxo"
+import "github.com/bitwormhole/nasyun/app/data/dxo"
 
 // Example ... VO
 type Example struct {

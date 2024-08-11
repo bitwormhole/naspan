@@ -16,14 +16,14 @@
         "destinations": [
             {
                 "id": "main",
-                "path": "gen/main4naspan",
+                "path": "gen/main4nasyun",
                 "sources": [
                     "main"
                 ]
             },
             {
                 "id": "test",
-                "path": "gen/test4naspan",
+                "path": "gen/test4nasyun",
                 "sources": [
                     "test"
                 ]

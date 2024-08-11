@@ -1,4 +1,4 @@
-package naspan
+package nasyun
 
 import (
 	"embed"
@@ -7,7 +7,7 @@ import (
 )
 
 const (
-	theModuleName     = "github.com/bitwormhole/naspan"
+	theModuleName     = "github.com/bitwormhole/nasyun"
 	theModuleVersion  = "v0.0.1"
 	theModuleRevision = 0
 )

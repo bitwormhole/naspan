@@ -1,8 +1,8 @@
 package database
 
 import (
-	"github.com/bitwormhole/naspan/app/data/dxo"
-	"github.com/bitwormhole/naspan/app/data/entity"
+	"github.com/bitwormhole/nasyun/app/data/dxo"
+	"github.com/bitwormhole/nasyun/app/data/entity"
 	"github.com/starter-go/libgorm"
 
 	"gorm.io/gorm"

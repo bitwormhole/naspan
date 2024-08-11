@@ -1,4 +1,4 @@
-module github.com/bitwormhole/naspan
+module github.com/bitwormhole/nasyun
 
 go 1.20
 

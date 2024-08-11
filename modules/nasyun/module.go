@@ -1,9 +1,9 @@
-package naspan
+package nasyun
 
 import (
-	naspan "github.com/bitwormhole/naspan"
-	"github.com/bitwormhole/naspan/gen/main4naspan"
-	"github.com/bitwormhole/naspan/gen/test4naspan"
+	nasyun "github.com/bitwormhole/nasyun"
+	"github.com/bitwormhole/nasyun/gen/main4nasyun"
+	"github.com/bitwormhole/nasyun/gen/test4nasyun"
 	"github.com/starter-go/application"
 	"github.com/starter-go/libgin/modules/libgin"
 	"github.com/starter-go/libgorm/modules/libgorm"
@@ -14,8 +14,8 @@ import (
 
 // Module  ...
 func Module() application.Module {
-	mb := naspan.NewMainModule()
-	mb.Components(main4naspan.ExportComponents)
+	mb := nasyun.NewMainModule()
+	mb.Components(main4nasyun.ExportComponents)
 
 	mb.Depend(libgin.Module())
 	mb.Depend(libgorm.Module())
@@ -29,7 +29,7 @@ func Module() application.Module {
 
 // ModuleForTest ...
 func ModuleForTest() application.Module {
-	mb := naspan.NewTestModule()
-	mb.Components(test4naspan.ExportComponents)
+	mb := nasyun.NewTestModule()
+	mb.Components(test4nasyun.ExportComponents)
 	return mb.Create()
 }

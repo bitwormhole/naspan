@@ -1,16 +1,16 @@
-package main4naspan
+package main4nasyun
 import (
-    p10eb65bc6 "github.com/bitwormhole/naspan/app/data/dao"
-    p1e004ce56 "github.com/bitwormhole/naspan/app/data/database"
-    p2f7744998 "github.com/bitwormhole/naspan/app/data/dxo"
-    pb686eecd9 "github.com/bitwormhole/naspan/app/implements/example"
-    p6f0cf9a44 "github.com/bitwormhole/naspan/app/web/controllers/apiv1"
+    p10eb65bc6 "github.com/bitwormhole/nasyun/app/data/dao"
+    p1e004ce56 "github.com/bitwormhole/nasyun/app/data/database"
+    p2f7744998 "github.com/bitwormhole/nasyun/app/data/dxo"
+    pb686eecd9 "github.com/bitwormhole/nasyun/app/implements/example"
+    p6f0cf9a44 "github.com/bitwormhole/nasyun/app/web/controllers/apiv1"
     pd1a916a20 "github.com/starter-go/libgin"
     p512a30914 "github.com/starter-go/libgorm"
      "github.com/starter-go/application"
 )
 
-// type p1e004ce56.ThisGroup in package:github.com/bitwormhole/naspan/app/data/database
+// type p1e004ce56.ThisGroup in package:github.com/bitwormhole/nasyun/app/data/database
 //
 // id:com-1e004ce56683b2ff-database-ThisGroup
 // class:class-512a309140d0ad99eb1c95c8dc0d02f9-GroupRegistry
@@ -84,7 +84,7 @@ func (inst*p1e004ce566_database_ThisGroup) getSourceManager(ie application.Injec
 
 
 
-// type pb686eecd9.DaoImpl in package:github.com/bitwormhole/naspan/app/implements/example
+// type pb686eecd9.DaoImpl in package:github.com/bitwormhole/nasyun/app/implements/example
 //
 // id:com-b686eecd91ca99f7-example-DaoImpl
 // class:
@@ -128,7 +128,7 @@ func (inst*pb686eecd91_example_DaoImpl) getAgent(ie application.InjectionExt)p2f
 
 
 
-// type p6f0cf9a44.ExampleController in package:github.com/bitwormhole/naspan/app/web/controllers/apiv1
+// type p6f0cf9a44.ExampleController in package:github.com/bitwormhole/nasyun/app/web/controllers/apiv1
 //
 // id:com-6f0cf9a44d38deda-apiv1-ExampleController
 // class:class-d1a916a203352fd5d33eabc36896b42e-Controller

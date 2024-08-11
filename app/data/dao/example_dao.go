@@ -1,8 +1,8 @@
 package dao
 
 import (
-	"github.com/bitwormhole/naspan/app/data/dxo"
-	"github.com/bitwormhole/naspan/app/data/entity"
+	"github.com/bitwormhole/nasyun/app/data/dxo"
+	"github.com/bitwormhole/nasyun/app/data/entity"
 	"gorm.io/gorm"
 )
 

@@ -1,4 +1,4 @@
-package test4naspan
+package test4nasyun
 
 import "github.com/starter-go/application"
 

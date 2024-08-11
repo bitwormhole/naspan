@@ -1,6 +1,6 @@
 package vo
 
-import "github.com/bitwormhole/naspan/app/web/dto"
+import "github.com/bitwormhole/nasyun/app/web/dto"
 
 // Example ... VO
 type Example struct {

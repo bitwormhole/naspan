@@ -1,4 +1,4 @@
-package test4naspan
+package main4nasyun
 
 import "github.com/starter-go/application"
 
@@ -30,7 +30,9 @@ func (inst *autoRegistrar) register(factory comFactory) error {
 func (inst*autoRegistrar) addAll() error {
 
     
-    inst.register(&p2a9210c169_unit_DemoUnit{})
+    inst.register(&p1e004ce566_database_ThisGroup{})
+    inst.register(&p6f0cf9a44d_apiv1_ExampleController{})
+    inst.register(&pb686eecd91_example_DaoImpl{})
 
 
     return nil

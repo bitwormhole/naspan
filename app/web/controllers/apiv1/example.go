@@ -3,10 +3,10 @@ package apiv1
 import (
 	"strconv"
 
-	"github.com/bitwormhole/naspan/app/data/dao"
-	"github.com/bitwormhole/naspan/app/data/dxo"
-	"github.com/bitwormhole/naspan/app/web/dto"
-	"github.com/bitwormhole/naspan/app/web/vo"
+	"github.com/bitwormhole/nasyun/app/data/dao"
+	"github.com/bitwormhole/nasyun/app/data/dxo"
+	"github.com/bitwormhole/nasyun/app/web/dto"
+	"github.com/bitwormhole/nasyun/app/web/vo"
 	"github.com/gin-gonic/gin"
 	"github.com/starter-go/libgin"
 )
